@@ -1,3 +1,5 @@
+package Lab1;
+
 import java.sql.SQLOutput;
 
 public class Main {
@@ -46,23 +48,9 @@ public class Main {
 
         int x5= -5+8*6;
         System.out.println(x5);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
+public static void printMyNAme(){
+    System.out.println("Hello\n Diana");
+}
 
 }
