@@ -16,6 +16,15 @@ public class Main {
         myName();
         java();
         face();
+        result=rest(x,y);
+        System.out.println(result);
+
+        System.out.println(gradeCelsius(100));
+        System.out.println(transformInchinmeters(68));
+
+        speed(76,90,876,96);
+
+
 
 
 
@@ -57,10 +66,36 @@ public static void face(){
     System.out.println(" | '_' |");
     System.out.println(" +-----+");
 }
-public static int rest(int first,int second){
-        return first%second;
-
+public static int rest(int first,int second){ ;
+        int rez=first%second;
+        return rez;
 }
+public static float gradeCelsius(float fahrenheit){
+        float celsius=(fahrenheit-32)*5/9;
+        return celsius;
+}
+public static double transformInchinmeters(double inch){
+        double meters=inch*0.0254;
+        return meters;
+}
+//9.Scrieti o metoda java, care primeste distanta (in metrii) si timpul
+// (ca si 3 numere: ore, minute, secunde), si afiseaza viteza,
+// in metrii pe secunda,
+// kilometrii pe ora si mile pe ora. (Indiciu: 1 mila = 1609 metrii)
+
+    public static void speed(float meters, float hours, float minutes, float seconds) {
+float timehours=hours + minutes/60 + seconds/3600;
+float timeseconds=hours*3600 + minutes*60 + seconds;
+float km=meters/1000;
+float miles=meters/1609;
+float ms=meters/timeseconds;
+float kmh=km/timehours;
+float mlh=miles/timehours;
+
+        System.out.println("The speed in m/s is:" + ms + "\n" + "The speed in km/h is:"
+                + kmh + "\n" + "The speed in miles/h is:" + mlh);
+}
+
 
 
 }
