@@ -1,6 +1,18 @@
 package Lab2.AnimalRescue;
 
 public class Veterinarian {
-    String name="Vladimir Castratu";
-    String specializatin="horses";
+    private String name;
+    public void setName(String name){
+        this.name=name;
+    }
+    public String getName(){
+        return name;
+    }
+    private String specialization;
+    public void setSpecialization(String specialization){
+        this.specialization=specialization;
+    }
+    public String getSpecialization(){
+        return specialization;
+    }
 }

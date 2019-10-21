@@ -3,48 +3,78 @@ package Lab2.AnimalRescue;
 public class AppMain {
     public static void main(String[] args){
         Cat firstcat=new Cat();
-        System.out.println(firstcat.name);
-        System.out.println(firstcat.age);
-        System.out.println(firstcat.favoriteActivity);
-        System.out.println(firstcat.favoriteFood);
-        System.out.println(firstcat.levelOfHealt);
-        System.out.println(firstcat.levelOfHunger);
-        System.out.println(firstcat.levelOfMood);
+        firstcat.setName("Mihaela");
+        System.out.println(firstcat.getName());
+        firstcat.setAge(4f);
+        System.out.println(firstcat.getAge());
+        firstcat.setFavoriteActivity("playing with the ball");
+        System.out.println(firstcat.getFavoriteActivity());
+        firstcat.setFavoriteFood("Sheeba");
+        System.out.println(firstcat.getFavoriteFood());
+        firstcat.setLevelOfHealt(8);
+        System.out.println(firstcat.getLevelOfHealt());
+        firstcat.setLevelOfHunger(7);
+        System.out.println(firstcat.getLevelOfHunger());
+        firstcat.setLevelOfMood(7);
+        System.out.println(firstcat.getLevelOfMood());
 
         Dog firstdog=new Dog();
-        System.out.println(firstdog.name);
-        System.out.println(firstdog.age);
-        System.out.println(firstdog.favoriteActivity);
-        System.out.println(firstdog.favoriteFood);
-        System.out.println(firstdog.levelOfHealt);
-        System.out.println(firstdog.levelOfHunger);
-        System.out.println(firstdog.levelOfMood);
+        firstdog.setName("Zero");
+        System.out.println(firstdog.getName());
+        firstdog.setAge(4.5f);
+        System.out.println(firstdog.getAge());
+        firstdog.setFavoriteActivity("running");
+        System.out.println(firstdog.getFavoriteActivity());
+        firstdog.setFavoriteFood("Bones");
+        System.out.println(firstdog.getFavoriteFood());
+        firstdog.setLevelOfHealt(8);
+        System.out.println(firstdog.getLevelOfHealt());
+        firstdog.setLevelOfHunger(3);
+        System.out.println(firstdog.getLevelOfHunger());
+        firstdog.setLevelOfMoodtLevelOfMood(8);
+        System.out.println(firstdog.getLevelOfMood());
 
         Horse firsthorse=new Horse();
-        System.out.println(firsthorse.name);
-        System.out.println(firsthorse.age);
-        System.out.println(firsthorse.favoriteActivity);
-        System.out.println(firsthorse.favoriteFood);
-        System.out.println(firsthorse.levelOfHealt);
-        System.out.println(firsthorse.levelOfHunger);
-        System.out.println(firsthorse.levelOfMood);
+        firsthorse.setName("Zorana");
+        System.out.println(firsthorse.getName());
+        firsthorse.setAge(7.8f);
+        System.out.println(firsthorse.getAge());
+        firsthorse.setFavoriteActivity("sleeping");
+        System.out.println(firsthorse.getFavoriteActivity());
+        firsthorse.setFavoriteFood("carrots");
+        System.out.println(firsthorse.getFavoriteFood());
+        firsthorse.setLevelOfHealt(5);
+        System.out.println(firsthorse.getLevelOfHealt());
+        firsthorse.setLevelOfHunger(3);
+        System.out.println(firsthorse.getLevelOfHunger());
+        firsthorse.setLevelOfMood(6);
+        System.out.println(firsthorse.getLevelOfMood());
 
         Veterinarian firstvet=new Veterinarian();
-        System.out.println(firstvet.name);
-        System.out.println(firstvet.specializatin);
+        firstvet.setName("Vasile Castratu");
+        System.out.println(firstvet.getName());
+        firstvet.setSpecialization("pets");
+        System.out.println(firstvet.getSpecialization());
 
         AnimalFood firstfood=new AnimalFood();
-        System.out.println(firstfood.name);
-        System.out.println(firstfood.amount);
-        System.out.println(firstfood.availability);
-        System.out.println(firstfood.price);
+        firstfood.setName("whiskas");
+        System.out.println(firstfood.getName());
+        firstfood.setPrice(12.6f);
+        System.out.println(firstfood.getPrice());
+        firstfood.setAmount(50);
+        System.out.println(firstfood.getAmount());
+        firstfood.setAvailability(true);
+        System.out.println(firstfood.getAvailability());
 
         RecreationalActivity firstrec=new RecreationalActivity();
-        System.out.println(firstrec.name);
+        firstrec.setName("playing");
+        System.out.println(firstrec.getName());
 
         Adopter firstadopter=new Adopter();
-        System.out.println(firstadopter.name);
-        System.out.println(firstadopter.amountOfMoney);
+
+        firstadopter.setName("Augustin Muntean");
+        System.out.println(firstadopter.getName());
+
 
 
 
