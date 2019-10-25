@@ -36,16 +36,16 @@ public static int sum(int first, int second) {
         return sum;
     }
     public static int substract(int first, int second){
-        int rez=first-second;
-        return rez;
+        int substraction=first-second;
+        return substraction;
 }
 public static float division(float first, float second){
-        float rez=first/second;
-        return rez;
+        float division=first/second;
+        return division;
 }
 public static int multiply(int first, int second){
-        int rez=first*second;
-        return rez;
+        int multiplication=first*second;
+        return multiplication;
 }
 public static void myName(){
     System.out.println("Hello \n Diana");

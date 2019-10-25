@@ -1,4 +1,4 @@
-package Lab2.AnimalRescue;
+package Lab3.AnimalRescue;
 
 public class Veterinarian {
     private String name;

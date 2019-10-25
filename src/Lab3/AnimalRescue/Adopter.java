@@ -1,4 +1,4 @@
-package Lab2.AnimalRescue;
+package Lab3.AnimalRescue;
 
 public class Adopter {
     private String name;
