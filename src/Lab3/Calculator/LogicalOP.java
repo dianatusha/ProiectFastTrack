@@ -31,7 +31,18 @@ public class LogicalOP {
                 System.out.println("The forecast snow is(cm):" + x);
         }
 
+void theNumberis(int x){
+            if(x>3)
+                System.out.println("The number is greater than 3 and not equal to 4");
+            if(x==4)
+                System.out.println("The number is equal to 4");
+            if(x<3)
+                System.out.println("The number is lower than 3");
+}
 
+
+
+}
 
 
 
@@ -55,13 +66,7 @@ public class LogicalOP {
 
 
 
-    //Given a text input, if it is "FastTrack",
-    //then print "learning text comparison".
-    //If not, print "Got to try some more"
 
-
-    //Given a number, if it's equal to or higher than 2
-    // and equal to or lower than 8, print number
 
 
 

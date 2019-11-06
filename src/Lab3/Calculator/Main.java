@@ -14,6 +14,9 @@ public class Main {
         op.textAndNumber("FastTrackIT",2);
         op.textAndNumber("Alabalaportocala",7);
         op.snowForcast(9);
+        op.theNumberis(8);
+        op.theNumberis(4);
+        op.theNumberis(2);
 
         
 
