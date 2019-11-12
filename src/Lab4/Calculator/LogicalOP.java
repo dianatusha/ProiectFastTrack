@@ -43,8 +43,32 @@ public class LogicalOP {
     return(sum / counter);
     }
 
+public void tillHundred(int number){
+        if (number>100){
+            for (int i = number; i >= 100; i--){
+                System.out.print(i + " ");
+            }
+        }
+        for (int i = number; i <= 100; i++){
+            System.out.print(i + " ");
+        }
 
+}
+// Creati o metoda in clasa LogicalOp, care sa primeasca un numar ca si parametru.
+// Metoda sa verifice numrul primit, si sa afiseze in consola o numaratoare pana la -100,
+// pornind de la numarul primit ca si parametru.
+// Atentie la crearea tipului metodei, deoarece metoda afiseaza, nu returneaza.
+public void tillMinusHundred(int number){
+        if (number > -100){
+            for (int i = number; i >= -100; i--){
+                System.out.print(i+ " ");
+            }
+        }
+        for (int i = number; i <= -100; i++){
+        System.out.print(i+" ");
+    }
 
+}
 
     }
 

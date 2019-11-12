@@ -8,6 +8,12 @@ public class Main {
 
         op.countBackwards(98,4);
         System.out.println(op.sumAndAverage());
+   op.tillHundred(101);
+        System.out.println("\n");
+   op.tillMinusHundred(-50);
+
+
+
     }
 
 
