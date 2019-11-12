@@ -18,6 +18,16 @@ public class Main {
         op.theNumberis(4);
         op.theNumberis(2);
 
+        op.showNumber(50);
+
+        System.out.println(op.isNumberEven(6));
+        System.out.println(op.isNumberEven(7));
+
+        System.out.println(op.isEligibleToVote(3));
+        System.out.println(op.isEligibleToVote(29));
+        System.out.println(op.showBiggerNumber(3,3,2));
+
+
         
 
 
